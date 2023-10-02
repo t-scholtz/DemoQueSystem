@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo_Que_System</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <h1>CSE 116 Office Hours</h1>
     <div class="queue-actions">
         <input type="text" id="name-input" placeholder="Enter your name">
-        <button id="add-button">Add to Queue</button>
-        <button id="remove-button">Remove from Queue</button>
+        <button id="add-button"> <i class="ri-add-circle-line"></i> Add Name to Que</button>
+        <button id="remove-button"> <i class="ri-close-circle-line"></i> Next Person</button>
     </div>
-    <div id="average-wait-time">Average Wait Time (Last 5 names): 0.00 minutes</div>
+    <div id="average-wait-time">Average Wait Time: 0.00 minutes</div>
     <div class="queue-container">
         <ul id="queue-list"></ul>
     </div>

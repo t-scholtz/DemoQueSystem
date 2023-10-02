@@ -35,7 +35,7 @@ function calculateAverageWaitTime() {
 // Function to update the average wait time display
 function updateAverageWaitTimeDisplay() {
     const averageWaitTime = calculateAverageWaitTime();
-    averageWaitTimeDisplay.textContent = `Average Wait Time (Last 5 names): ${averageWaitTime} minutes`;
+    averageWaitTimeDisplay.textContent = `Average Wait Time: ${averageWaitTime} minutes`;
 }
 
 // Add a name to the queue with a timestamp and calculate wait time

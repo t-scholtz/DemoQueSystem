@@ -1,11 +1,18 @@
+*{
+    font-family: 'Space Mono';
+    color: white;
+}
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-size: 30px ;
     text-align: center;
     margin: 20px;
+    background-color: rgb(49, 49, 49);
 }
 
 h1 {
-    color: #333;
+    color: #0a6bc7;
 }
 
 .queue-container {
@@ -34,20 +41,28 @@ li {
 
 input[type="text"] {
     padding: 5px;
+    color: black; 
 }
 
 button {
     padding: 5px 10px;
     margin: 0 5px;
     cursor: pointer;
+    color: black; 
 }
 
 button#add-button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #33cf38;
+}
+
+button#add-button i {
+    color: black;
 }
 
 button#remove-button {
-    background-color: #F44336;
-    color: white;
+    background-color: #e22315;
+}
+
+button#remove-button i {
+    color: black;
 }
